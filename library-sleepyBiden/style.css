@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Run";
-  src: url("/library-fronxyGliderAdventure/fonts/RafaKidsDemo.ttf");
+  src: url("/library-sleepyBiden/fonts/RafaKidsDemo.ttf");
 }
 
 * {
@@ -67,7 +67,7 @@
 }
 
 .page1 {
-  background-image: url("/library-fronxyGliderAdventure/images/sleepyJoeMarineOneBackground.png");
+  background-image: url("/library-sleepyBiden/images/sleepyJoeMarineOneBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -75,7 +75,7 @@
 }
 
 .page2 {
-  background-image: url("/library-fronxyGliderAdventure/images/sleepyBidenF16.png");
+  background-image: url("/library-sleepyBiden/images/sleepyBidenF16.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -83,7 +83,7 @@
 }
 
 .page3 {
-  background-image: url("/library-fronxyGliderAdventure/images/sleepyBidenSheep.png");
+  background-image: url("/library-sleepyBiden/images/sleepyBidenSheep.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -91,7 +91,7 @@
 }
 
 .page4 {
-  background-image: url("/library-fronxyGliderAdventure/images/sleepyBidenSleeping.png");
+  background-image: url("/library-sleepyBiden/images/sleepyBidenSleeping.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

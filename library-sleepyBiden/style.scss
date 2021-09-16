@@ -1,0 +1,48 @@
+@import "../library-sleepyBiden/_Variables.scss";
+@import "../library-sleepyBiden/_Mixins.scss";
+
+//Font för titeln 
+@font-face {
+    font-family: "Run";
+    src: url("/library-sleepyBiden/fonts/RafaKidsDemo.ttf");
+  }
+
+//sätter padding och margin till 0 på hela sidan
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "run";
+
+}
+//titeln högst upp som är fixed (gjorde ingen mixin för koden skall ej repiteras)
+.title {
+    @include titleStyle();
+}
+
+.wrapper {
+    @include wrapperpadding();
+    .textBox {
+        @include textBoxStyle();
+        .textBoxTitle {
+            @include textBoxTitleStyle();
+
+        }
+        .textBoxContent {
+            @include textBoxContentStyle()
+        }
+    }
+}
+
+.page1 {
+    @include backgroundImage("/sleepyJoeMarineOneBackground.png");
+}
+.page2 {
+    @include backgroundImage("/sleepyBidenF16.png");
+}
+.page3 {
+    @include backgroundImage("/sleepyBidenSheep.png");
+}
+.page4 {
+    @include backgroundImage("/sleepyBidenSleeping.png");
+
+}

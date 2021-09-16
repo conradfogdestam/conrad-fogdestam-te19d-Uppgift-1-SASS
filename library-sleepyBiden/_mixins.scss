@@ -1,0 +1,51 @@
+//mixin för att sizea bakgrunden med en variabel så man kan ändra bild
+@mixin backgroundImage ($filepath) {
+    background-image: url("/library-sleepyBiden/images#{$filepath}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+}
+
+@mixin titleStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    font-size: 8vh;
+    font-size: 4vw;
+    background-color: rgba(15, 15, 15, 0.863);
+    color: rgb(255, 255, 255);
+}
+//mixin för padding för textboxes
+@mixin wrapperpadding {
+    padding-top: 67vh;
+    padding-left: 2vw;
+}
+
+//mixin för alla text boxar nere i vänstra hörnet
+@mixin textBoxStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(15, 15, 15, 0.863);
+    height: 30vh;
+    width: 35vw;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+//mixin för titel i text boxarna
+@mixin textBoxTitleStyle {
+    font-size: 6vh;
+    font-size: 3vw;
+    padding-bottom: 2vh;
+}
+//mixin flr content i textboxes
+@mixin textBoxContentStyle {
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
