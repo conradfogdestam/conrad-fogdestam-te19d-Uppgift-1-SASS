@@ -15,8 +15,8 @@
     width: 100vw;
     font-size: 8vh;
     font-size: 4vw;
-    background-color: rgba(15, 15, 15, 0.863);
-    color: rgb(255, 255, 255);
+    background-color: $backgroundColorTextBox;
+    color: $textColor;
 }
 //mixin för padding för textboxes
 @mixin wrapperpadding {
@@ -30,8 +30,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
-    background-color: rgba(15, 15, 15, 0.863);
+    color: $textColor;
+    background-color: $backgroundColorTextBox;
     height: 30vh;
     width: 35vw;
     border-radius: 20px;
