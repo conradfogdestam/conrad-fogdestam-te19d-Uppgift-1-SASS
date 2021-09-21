@@ -6,7 +6,7 @@
     background-position: top;
     height: 100vh;
 }
-
+//style för Titeln
 @mixin titleStyle {
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@
     font-size: 3vw;
     padding-bottom: 2vh;
 }
-//mixin flr content i textboxes
+//mixin för content i textboxes
 @mixin textBoxContentStyle {
     font-size: 3vh;
     font-size: 1.5vw;

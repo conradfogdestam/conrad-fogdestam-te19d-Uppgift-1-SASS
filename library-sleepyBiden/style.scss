@@ -1,7 +1,8 @@
+//importerar mixins och variabler från dom andra filerna
 @import "../library-sleepyBiden/_Variables.scss";
 @import "../library-sleepyBiden/_Mixins.scss";
 
-//Font för titeln 
+//Import för font
 @font-face {
     font-family: "Run";
     src: url("/library-sleepyBiden/fonts/RafaKidsDemo.ttf");
@@ -19,6 +20,7 @@
     @include titleStyle();
 }
 
+//style med mixins på alla sidor då dom delar classes
 .wrapper {
     @include wrapperpadding();
     .textBox {
@@ -33,6 +35,7 @@
     }
 }
 
+//olika paths för background image
 .page1 {
     @include backgroundImage("/sleepyJoeMarineOneBackground.png");
 }
