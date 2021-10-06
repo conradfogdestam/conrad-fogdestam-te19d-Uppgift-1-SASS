@@ -49,3 +49,36 @@
     font-size: 3vh;
     font-size: 1.5vw;
 }
+
+// General mixins for hermans satisfaction
+
+@mixin textColor ($color) {
+    color: $color;
+}
+
+@mixin backgroundColor ($color) {
+    background-color: $color;
+}
+
+@mixin fontSize ($size) {
+    font-size: $size;
+} 
+
+@mixin fontWeight ($Weight) {
+    font-weight: $Weight;
+} 
+
+@mixin flexCenterAndDirection ($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+} 
+
+@mixin fontWeight ($Weight) {
+    font-weight: $Weight;
+} 
+
+@mixin curvedCorners ($bender) {
+    border-radius: $bender;
+}
